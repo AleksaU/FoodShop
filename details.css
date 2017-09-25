@@ -1,0 +1,239 @@
+.main{
+    background: #D3D3D3; /*#D3D3D3;*/
+    margin: 0px;
+    margin-right: 43px;
+    margin-left: 43px;
+    padding-top: 100px;
+}
+.all_tables{
+    width: 1263px;
+}
+
+.table1{
+    width: 823px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.table2{
+    display: inline-block;
+    width: 300px;
+
+
+    height: 200px;
+    padding: 20px;
+
+}
+
+
+.search_line_of_table1{
+    border: 1px solid black;
+    background: white;
+    padding: 20px;
+    height: 50px;
+}
+.line_of_table1{
+    border: 1px solid black;
+    background: white;
+    height: 50px;
+    padding: 14px;
+
+}
+
+.line_of_table2{
+    border: 1px solid black;
+    background: white;
+    height: 50px;
+    padding: 10px;
+    /* font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+     font-size: 18pt; */
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.last_line_of_table2{
+    border: 1px solid black;
+    background: white;
+    height: 10px;
+    padding: 10px;
+    /* font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+     font-size: 18pt; */
+    font-weight: bold;
+
+
+
+}
+.text_of_simple_line_of_table2{
+    text-align: left;
+
+}
+
+.cell{
+    display: inline-block;
+    width: 270px;
+    border-collapse: collapse;
+}
+
+.simple_textarea{
+    display: inline-block;
+    padding: 10px;
+    border: 1px;
+}
+
+.area_to_write{
+    padding: 14px;
+    display: inline-block;
+    width: 80%;
+    border-width: 0.5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.button_add{
+    padding: 14px;
+    display: inline-block;
+    width: 15%;
+    color: white;
+    background: dodgerblue;
+    border: none;
+
+
+}
+
+.button_minus{
+    height: 30px;
+    width: 30px;
+    border-radius: 10em;
+    border: none;
+    background: red;
+
+}
+
+.button_result{
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.button_plus{
+    height: 30px;
+    width: 30px;
+    border-radius: 10em;
+    border: none;
+    background: green;
+}
+
+.button_buy{
+    padding: 14px;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+
+.button_cross{
+    padding: 14px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: red;
+    border: none;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+.number{
+    height: 400px;
+    width: 400px;
+    border-radius: 40px;
+    border: none;
+    background: orangered;
+
+}
+
+
+
+.left_label{
+    background: grey;
+    padding: 14px;
+
+    width: 100px;
+    height: 15px;
+
+    border: none;
+
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.badge{  /* вспливаючий бейдж*/
+    position: fixed;
+    bottom: -130px;
+    left: 20px;
+    width: 100px;
+    height: 180px;
+    color: white;
+    background: deeppink;
+    text-align: center;
+    font-size: 25px;
+    font-family: Tahoma;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 1s ease ;
+}
+.button_minus{
+
+}
+
+.button_minus{
+
+
+}
+
+.badge .created{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.badge:hover{
+    /*   bottom: 0px;*/
+    transform: translateY(-130px);
+    background: blue;
+
+}
+@media print {
+    .badge .title{
+        display: none;
+    }
+    .badge{
+        color: black;
+        border: 3px solid black;
+    }
+}
+
+@media (max-width: 600px){
+
+}
+
+input{
+    padding: 5px;
+}
