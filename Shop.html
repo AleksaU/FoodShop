@@ -1,100 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="details.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="details.css"/>
     <meta charset="UTF-8">
     <title>Shop</title>
 </head>
-<body class="main">
+<body>
+<div class = "whole_area">
+    <div class = "tables">
 
-<div class = "all_tables">
-    <div class="table1">
-        <div class="search_line_of_table1">
-            <div class = "incside_search_line">
-                <input class="area_to_write" type="text" placeholder="Назва товару">
-                <button class = "button_add" > Додати </button>
-            </div>
+        <div class = "table1">
+            <div class="table1_itself">
 
-        </div>
+                <div class="top_line_of_table1">
+                    <div class="centre_of_top_line1">
+                        <input id="big_text_area" type="text" placeholder="Назва товару">
+                        <button class="add"> Додати </button>
+                    </div>
+                </div>
 
-        <div class="line_of_table1">
-            <div class = "cell"><input class="simple_textarea"  type="text" value="Огірки"  ></div>
-            <div class = "cell">
-                <span class="tooltip" data-tooltip="Зменшити"> <button class = "button_minus"> - </button></span>
-                <span class="tooltip" data-tooltip="Кількість товару"> <button class = "button_result" > 1 </button></span>
-                <span class="tooltip" data-tooltip="Збільшити">   <button class = "button_plus" > + </button></span>
-            </div>
-            <button class = "button_buy" > Куплено </button>
-            <span class="tooltip" data-tooltip="Прибрати продукт">  <button class = "button_cross" > Х </button></span>
-        </div>
+                <div class="line_of_table1">
+                    <div class="centre_line_of_table1">
+                        <div class="cell_name_of_product">
+                            <span class="list_to_buy"> Помідори </span>
+                        </div>
+                        <div class="cell_with_count_buttons">
+                            <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
+                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="count_of_good"> 1 </span> </span>
+                            <span class="tooltip" data-tooltip="Збільшити">  <button class="plus"> + </button></span>
+                        </div>
+                        <div class="cell_with_button_buy">
+                            <button class="buy">Куплено</button>
+                            <span class="tooltip" data-tooltip="Видалити">  <button class="cross"> x</button> </span>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="line_of_table1">
-            <div class = "cell"><input class="simple_textarea"  type="text" value="Молоко"></div>
-            <div class = "cell">
+                <div class="line_of_table1">
+                    <div class="centre_line_of_table1">
+                        <div class="cell_name_of_product">
+                            <span class="list_to_buy"> Печиво </span>
+                        </div>
+                        <div class="cell_with_count_buttons">
+                            <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
+                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="count_of_good" > 2 </span> </span>
+                            <span class="tooltip" data-tooltip="Збільшити">  <button class="plus"> + </button></span>
+                        </div>
+                        <div class="cell_with_button_buy">
+                            <button class="buy">Куплено</button>
+                            <span class="tooltip" data-tooltip="Видалити">  <button class="cross"> x</button> </span>
+                        </div>
+                    </div>
+                </div>
 
-
-
-                <span class="tooltip" data-tooltip="Зменшити"> <button class = "button_minus"> - </button></span>
-                <span class="tooltip" data-tooltip="Кількість товару"> <button class = "button_result" > 1 </button></span>
-                <span class="tooltip" data-tooltip="Збільшити">   <button class = "button_plus" > + </button></span>
-            </div>
-
-            <button class = "button_buy" > Куплено </button>
-            <span class="tooltip" data-tooltip="Прибрати продукт">  <button class = "button_cross" > Х </button></span>
-        </div>
-
-        <div class="line_of_table1">
-            <div class ="cell"><input  class="simple_textarea" type="text" value="Риба"></div>
-            <div class = "cell">
-                <span class="tooltip" data-tooltip="Зменшити"> <button class = "button_minus"> - </button></span>
-                <span class="tooltip" data-tooltip="Кількість товару"> <button class = "button_result" > 1 </button></span>
-                <span class="tooltip" data-tooltip="Збільшити">   <button class = "button_plus" > + </button></span>
-            </div>
-            <button class = "button_buy" > Куплено </button>
-            <span class="tooltip" data-tooltip="Прибрати продукт">  <button class = "button_cross" > Х </button></span>
-        </div>
-    </div>
-
-    <span class="table2">
-        <div class="line_of_table2">
-            <div class= "text_of_simple_line_of_table2">
-                <h3> Залишилося </h3></div>
-        </div>
-
-
-        <div class="line_of_table2">
-                <!-- <div class="left_label">-->
-
-                      <span class="label">
-                       <span class="title">Продукт1</span>
-                       <span class="number">1</span>
-                          </span>
-
-              <span class="label">
-            <span class="title">Продукт2</span>
-                       <span class="number">1</span>
-
-                 <!--</div>-->
-
-                      </span>
-
- </div>
-
-
-
-
-
-        <div class="line_of_table2">
-            <div class= "text_of_simple_line_of_table2">
-                <h3> Куплено </h3>
+                <div class="line_of_table1">
+                    <div class="centre_line_of_table1">
+                        <div class="cell_name_of_product">
+                            <span class="list_to_buy"> Хліб </span>
+                        </div>
+                        <div class="cell_with_count_buttons">
+                            <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
+                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="count_of_good"> 1 </span> </span>
+                            <span class="tooltip" data-tooltip="Збільшити">  <button class="plus"> + </button></span>
+                        </div>
+                        <div class="cell_with_button_buy">
+                            <button class="buy">Куплено</button>
+                            <span class="tooltip" data-tooltip="Видалити">  <button class="cross"> x</button> </span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class ="table2">
+            <div class="table2_centre">
 
-        <div class="last_line_of_table2">
-    </div>
+                <div class="top_line_of_table2">
+                    <h3>Залишилось</h3>
+                </div>
+
+                <div class="line_of_table2">
+                    <div class="list_to_buy_table2">
+
+                        <div class="one_bought_good">
+                        <span class="label_js">
+                    <span class="name_of_bought_good">Помідори</span>
+                    <span class="count_of_bought_good">1</span>
+                        </span>
+                        </div>
+
+                        <div class="one_bought_good">
+                        <span class="label_js">
+                        <span class="name_of_bought_good">Сир</span>
+                        <span class="count_of_bought_good">1</span>
+                        </span>
+                        </div>
+
+                        <span class="one_bought_good">
+                        <span class="label_js">
+                        <span class="name_of_bought_good">Масло</span>
+                        <span class="count_of_bought_good">1</span>
+                        </span>
+                    </span>
 
 
+                    </div>
+                </div>
+
+                <div class="line_of_table2">
+                    <h3>Куплено</h3>
+                </div>
+
+                <div class="line_of_table2">
+                    <div class="list_of_bought">
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </div>
 
@@ -103,8 +128,7 @@
     <div class="created"> Created by Oleksandra Utkina </div>
 </div>
 
+<script  type="text/javascript" src="jQuery.js"></script>
 
+<script  type="text/javascript" src="main.js"></script>
 
-
-</body>
-</html>
