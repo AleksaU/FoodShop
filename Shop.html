@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="details.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
     <meta charset="UTF-8">
     <title>Shop</title>
 </head>
@@ -19,10 +19,11 @@
                     </div>
                 </div>
 
-                <div class="line_of_table1">
+                <div class="line_of_table1" style="display: none">
                     <div class="centre_line_of_table1">
                         <div class="cell_name_of_product">
                             <span class="list_to_buy"> Помідори </span>
+                            <input class ="change"style="display: none">
                         </div>
                         <div class="cell_with_count_buttons">
                             <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
@@ -36,41 +37,10 @@
                     </div>
                 </div>
 
-                <div class="line_of_table1">
-                    <div class="centre_line_of_table1">
-                        <div class="cell_name_of_product">
-                            <span class="list_to_buy"> Печиво </span>
-                        </div>
-                        <div class="cell_with_count_buttons">
-                            <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
-                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="number_of_products" > 2 </span> </span>
-                            <span class="tooltip" data-tooltip="Збільшити">  <button class="plus"> + </button></span>
-                        </div>
-                        <div class="cell_with_button_buy">
-                            <button class="buy">Куплено</button>
-                            <span class="tooltip" data-tooltip="Видалити">  <button class="cross"> x</button> </span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="line_of_table1">
-                    <div class="centre_line_of_table1">
-                        <div class="cell_name_of_product">
-                            <span class="list_to_buy"> Хліб </span>
-                        </div>
-                        <div class="cell_with_count_buttons">
-                            <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
-                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="number_of_products"> 1 </span> </span>
-                            <span class="tooltip" data-tooltip="Збільшити">  <button class="plus"> + </button></span>
-                        </div>
-                        <div class="cell_with_button_buy">
-                            <button class="buy">Куплено</button>
-                            <span class="tooltip" data-tooltip="Видалити">  <button class="cross"> x</button> </span>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
+
 
         <div class ="table2">
             <div class="table2_centre">
@@ -82,26 +52,13 @@
                 <div class="line_of_table2">
                     <div class="list_to_buy_table2">
 
-                        <div class="one_bought_product">
+                        <div class="one_bought_product"style="display: none">
                         <span class="label_js">
                     <span class="name_of_bought_product">Помідори</span>
                     <span class="count_of_bought_product">1</span>
                         </span>
                         </div>
 
-                        <div class="one_bought_product">
-                        <span class="label_js">
-                        <span class="name_of_bought_product">Сир</span>
-                        <span class="count_of_bought_product">1</span>
-                        </span>
-                        </div>
-
-                        <span class="one_bought_product">
-                        <span class="label_js">
-                        <span class="name_of_bought_product">Масло</span>
-                        <span class="count_of_bought_product">1</span>
-                        </span>
-                    </span>
 
 
                     </div>
@@ -128,7 +85,6 @@
     <div class="created"> Created by Oleksandra Utkina </div>
 </div>
 
-<script  type="text/javascript" src="jQuery.js"></script>
+<script  type="text/javascript" src="jquery-3.2.1.min.js"></script>
 
 <script  type="text/javascript" src="main.js"></script>
-
