@@ -9,6 +9,8 @@ $(document).ready(function(){
 
 
     function addItem(title){
+        var bought = false;
+
         if(document.getElementById("big_text_area").value != "") {
 
             var $node = $(SEGMENT);
@@ -58,6 +60,7 @@ $(document).ready(function(){
         var new_name = $new_input.val();
         addItem(new_name);
     });
-
-
+    addItem("Помідори");
+    addItem("Горох");
+    addItem("Малина");
 });
