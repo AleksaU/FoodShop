@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <meta charset="UTF-8">
-    <title>Shop</title>
+    <title>Food-shop</title>
 </head>
 <body>
 <div class = "whole_area">
@@ -14,36 +14,36 @@
 
                 <div class="top_line_of_table1">
                     <div class="centre_of_top_line1">
-                        <input id="big_text_area" type="text" placeholder="Назва товару">
+                        <input class="big_text_area" type="text" placeholder="Назва товару">
                         <button class="add"> Додати </button>
                     </div>
                 </div>
 
-                <div class="line_of_table1" style="display: none">
+                <div class="line_of_table1" style="display:none">
                     <div class="centre_line_of_table1">
-                        <div class="cell_name_of_product">
-                            <span class="list_to_buy"> Помідори </span>
-                            <input class ="change"style="display: none">
+                        <div class="cell_name_of_products">
+                            <span class="product" > Помідори </span>
+                            <input class="edit" type="text" style="display:none">
                         </div>
                         <div class="cell_with_count_buttons">
                             <span class="tooltip" data-tooltip="Зменшити">  <button class="minus"> - </button> </span>
-                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="number_of_products"> 1 </span> </span>
+                            <span class="tooltip" data-tooltip="Кількість товару">  <span class="number_of_product"> 1 </span> </span>
                             <span class="tooltip" data-tooltip="Збільшити">  <button class="plus"> + </button></span>
                         </div>
                         <div class="cell_with_button_buy">
-                            <button class="buy">Куплено</button>
-                            <span class="tooltip" data-tooltip="Видалити">  <button class="cross"> x</button> </span>
+                            <button class="buy">Купити</button>
+                            <button class="unbuy"style="display:none">Відмінити покупку</button>
+                            <span class="tooltip" data-tooltip="Видалити">  <button class="delete"> x</button> </span>
                         </div>
                     </div>
                 </div>
 
 
-                </div>
             </div>
-
+        </div>
 
         <div class ="table2">
-            <div class="table2_centre">
+            <div class="table2_itself">
 
                 <div class="top_line_of_table2">
                     <h3>Залишилось</h3>
@@ -52,10 +52,10 @@
                 <div class="line_of_table2">
                     <div class="list_to_buy_table2">
 
-                        <div class="one_bought_product"style="display: none">
+                        <div class="bought_product" style="display:none">
                         <span class="label_js">
                     <span class="name_of_bought_product">Помідори</span>
-                    <span class="count_of_bought_product">1</span>
+                    <span class="number_of_bought_product">1</span>
                         </span>
                         </div>
 
@@ -88,3 +88,7 @@
 <script  type="text/javascript" src="jquery-3.2.1.min.js"></script>
 
 <script  type="text/javascript" src="main.js"></script>
+
+
+</body>
+</html>
